@@ -1,5 +1,8 @@
 # TweetsClustering
 
+![image](https://github.com/Yash-Gavade/Analyzing_Tweets/assets/74112721/70cf3d35-bf12-4c2f-a551-e01761eabf04)
+
+
 Twitter provides a service for posting short messages. In practice, many of the tweets are very
 similar to each other and can be clustered together. By clustering similar tweets together, we can
 generate a more concise and organized representation of the raw tweets, which will be very
@@ -45,6 +48,10 @@ K-means clustering algorithm is implemented from scratch, without using any mach
 
 Output results on one of the datasets is provided in "Report.pdf".
 
+## Approach
+The approach involves preprocessing tweets, calculating Jaccard distances between them, and applying the K-means algorithm to cluster tweets based on similarity.
+
+
 # Steps To Run
 
 1) If the system don't have python Installed in it, first install python (version greater than or equal v3.7)
@@ -69,3 +76,9 @@ Notes :
  c) The program returns the value of SSE (sum of squared error) and size of each cluster after every experiment.
 
  d) A user can also print tweets in each cluster by uncommenting certain part of code written in the __main__.
+
+
+## Results
+The output provides insights into tweet clustering, including SSE and cluster sizes, aiding in understanding tweet distribution and similarity patterns within clusters.
+
+
