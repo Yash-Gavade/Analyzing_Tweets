@@ -11,7 +11,7 @@ etc.)
 
 Here, the tweets are clustered using Jaccard distance metric and K-means clustering algorithm.
 
-# Jaccard Distance
+## Jaccard Distance
 
 The Jaccard distance, which measures dissimilarity between two sample sets (A and B). It is
 defined as the difference of the sizes of the union and the intersection of two sets divided by the
@@ -29,11 +29,11 @@ Jaccard Distance Dist(A, B) between tweet A and B has the following properties:
 3. It is 0 if they are the same.
 4. It is 1 if they are completely different (i.e., no overlapping words).
 
-# Dataset Used
+## Dataset Used
 
 https://archive.ics.uci.edu/ml/datasets/Health+News+in+Twitter
 
-# Tweets Preprocessing
+## Tweets Preprocessing
 
 Firstly, the tweets are preprocessed using the following steps:
 - tweet ids and timestamps are removed
@@ -42,7 +42,7 @@ Firstly, the tweets are preprocessed using the following steps:
 - any URL are removed
 - every word is converted to lowercase
 
-# K-Means Clustering Algorithm
+## K-Means Clustering Algorithm
 
 K-means clustering algorithm is implemented from scratch, without using any machine learning libraries
 
@@ -52,7 +52,7 @@ Output results on one of the datasets is provided in "Report.pdf".
 The approach involves preprocessing tweets, calculating Jaccard distances between them, and applying the K-means algorithm to cluster tweets based on similarity.
 
 
-# Steps To Run
+### Steps To Run
 
 1) If the system don't have python Installed in it, first install python (version greater than or equal v3.7)
 	- https://www.python.org/downloads/
